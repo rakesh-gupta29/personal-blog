@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .d {
+    @apply border border-red-500;
+  }
+  .subtitle {
+    @apply xl:text-2xl md:text-xl text-lg;
+  }
+  .para {
+    @apply xl:text-xl md:text-lg text-base;
+  }
+  .quote {
+    @apply font-lora border-l text-primary border-primary border-opacity-50 py-4 px-6 rounded-r-xl bg-gray-100 relative before:content-[''] before:absolute before:-top-5 before:-left-5 before:h-12 before:w-12 before:rounded-full before:bg-white before:bg-quote  before:bg-contain before:bg-no-repeat before:bg-center before:border-[0.4rem] before:border-transparent before:border-opacity-50;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply xl:text-title lg:text-5xl md:text-4xl  text-3xl;
+  }
+  h2 {
+    @apply xl:text-5xl lg:text-4xl md:text-3xl  text-2xl;
+  }
+  h3 {
+    @apply xl:text-4xl lg:text-3xl md:text-2xl  text-xl;
+  }
+}
