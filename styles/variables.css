@@ -1,0 +1,14 @@
+:root {
+    --border-color-light: #aeaeae;
+    --border-color-dark: #525252;
+    --font-family-primary: "IBM Plex Serif",sans-serif;
+    --font-family-secondary:"Inter";
+    --color-primary: #374785;
+    --color-secondary: #25274D;
+    --color-light: #dddddd;
+    --color-gray: #565b63;
+    --color-dark: #3f3f46;
+    --color-footer: #052634;
+    --color-hover-blue: #f4f4f4;
+   
+}

@@ -1,0 +1,15 @@
+.screen-master{
+    max-width: 1400px;
+}
+.screen-master aside {
+    flex : 1 1 300px;
+}
+.screen-master .content-wrapper{
+    flex: 10 1 550px ;
+}
+@media ( max-width:865px) {
+    .screen-master aside {
+        border-right: 1px solid var(--border-color-light);
+    }
+    
+}

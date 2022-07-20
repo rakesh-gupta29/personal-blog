@@ -1,0 +1,6 @@
+.imageCover{
+    position: relative ;
+    min-height: 550px;
+    max-height: 500px;
+    margin:45px 0px ;
+}

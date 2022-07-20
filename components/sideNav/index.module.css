@@ -1,0 +1,17 @@
+.sideDataWrapper {
+    position: sticky;
+    top: 45px ;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.sideNavMaster img {
+    min-height: 150px;
+    max-height: 150px;
+    margin-top: 55px;
+
+}
+.sideNavMaster span {
+    font-size: calc(35px + 1vw );
+
+}
